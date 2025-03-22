@@ -1,0 +1,139 @@
+/*
+i fucking suck at web desing, so don't blame me if my css fucking sucks
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: #000;
+    color: #afafaf;
+    margin-left: 170px;
+    margin-right: 20px;
+    background: #000 url("./img/bg.gif") fixed;
+}
+
+nav {
+    padding: 10px 0;
+    border-right: solid; 
+    border-color: #fff;
+    border-width: 1px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 150px; 
+    height: 100%; 
+    background-color: #000; 
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column; 
+}
+
+#icon {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    border: dashed;
+    border-width: 1px;
+    width:  100px; 
+    height: 100px; 
+}
+
+a {
+    color: #919191;
+}
+
+a:hover {
+    color: #fff;
+}
+nav a {
+    color: #919191;
+    text-decoration: none;
+    margin: 5px auto 10px auto;
+    padding: 10px;
+    font-size: 20px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+#title {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    border-width: 1px;
+}
+
+
+.box {
+    margin: 20px auto;
+    margin-right: 40px;
+    padding: 20px;
+    width: auto;
+    border: solid;
+    border-width: 1px;
+    word-wrap: break-word;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    max-width: 75%;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.content img {
+    display: inline;
+    margin: auto;
+    width: 25px;
+}
+
+#updates {
+    font-size: 15px;
+}
+
+
+.contact {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 67px 100px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cbox {
+    margin-top: 30%;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 15px;
+    overflow-wrap: break-word;
+}
+
+.ccontent {
+    text-align: center;
+    padding: 10px;
+}
+
+.links a {
+    font-size: 19px;
+    text-decoration: none;
+    color: #919191;
+}
+
+.links a:hover {
+    color: #fff;
+}

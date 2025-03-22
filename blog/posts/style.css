@@ -1,0 +1,26 @@
+
+body {
+    color: #fff;
+    font-family: monospace;
+    background-color: #000;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#date {
+    font-size: 15px;
+}
+
+pre {
+    font-size: 10px;
+}
+
+a {
+    color: #919191;
+}
+
+a:hover {
+    color: #fff;
+}
